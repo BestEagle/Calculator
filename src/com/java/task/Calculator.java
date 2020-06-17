@@ -150,31 +150,7 @@ class Converter {
         return n2;
 
     }
-    public static String toRomReverse(int v) {
-        String n3 = "";
-        if (v == 1)
-            n3 = "I";
-        if (v == 2)
-            n3 = "II";
-        if (v == 3)
-            n3 = "III";
-        if (v == 4)
-            n3 = "IV";
-        if (v == 5)
-            n3 = "V";
-        if (v == 6)
-            n3 = "VI";
-        if (v == 7)
-            n3 = "VII";
-        if (v == 8)
-            n3 = "VIII";
-        if (v == 9)
-            n3 = "IX";
-        if (v == 10)
-            n3 = "X";
-        return n3;
-
-    }
+    
     enum RomanNumeral {
         I(1), IV(4), V(5), IX(9), X(10),
         XL(40), L(50), XC(90), C(100),
